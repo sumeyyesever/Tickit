@@ -11,7 +11,7 @@ export default async function Home() {
       <div className={styles.textContainer}>
         <h1 className={styles.title}>Welcome to the Tickit</h1>
         <p className={styles.desc}>To do lists works!<br /> Just tick it, cross it, be done with it.</p>
-        <Link href={session.isLoggedIn ? "/dashboard" : "/login"} className={styles.button}>Let's Go!</Link>
+        <Link href={session.isLoggedIn ? "/dashboard" : "/login"} className={styles.button}>Let&apos;s Go!</Link>
       </div>
       <div className={styles.imgContainer}>
         <Image src="/hero.jpg" alt="" fill className={styles.heroImg} />
