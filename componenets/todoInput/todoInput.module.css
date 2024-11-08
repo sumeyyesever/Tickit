@@ -1,0 +1,21 @@
+.container{
+    margin-bottom: 50px;
+}
+
+.form{
+    display: flex;
+    gap: 10px;
+}
+
+.form input{
+    height: 30px;
+    width: 300px;
+    outline: none;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.form button{
+    width: 50px;
+    border-radius: 5px;
+}

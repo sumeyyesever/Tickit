@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.todo{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.todoButtons{
+    display: flex;
+    gap: 5px;
+    margin-left: 10px;
+}
+
+.editButton{
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    background-color: rgb(9, 90, 29);
+}
+
+.editInput{
+    border: none;
+    outline: none;
+    border-bottom: solid 1.5px black;
+    padding: 5px;
+    width: 300px;
+}
+
+.tick{
+    cursor: pointer;
+    text-decoration: line-through;
+}
+
+.square{
+    cursor: pointer;
+}
